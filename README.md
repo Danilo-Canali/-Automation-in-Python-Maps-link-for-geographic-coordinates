@@ -38,7 +38,9 @@ Se não conseguir extrair as coordenadas, o link ainda é salvo no CSV, mas com 
 
 .
 ├── extrair_coordenadas.py
+
 ├── links.txt
+
 └── pontos.csv
 
 Requisitos
@@ -76,6 +78,7 @@ Exemplo:
 
 Nome,Latitude,Longitude,Link Original
 Ponto 1,-22.120000,-51.390000,https://maps.app.goo.gl/xxxxx
+
 Observações
 
 O script utiliza o navegador em modo headless, ou seja, sem abrir a janela do Chrome visualmente
