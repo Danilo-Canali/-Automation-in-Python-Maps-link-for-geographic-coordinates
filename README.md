@@ -22,7 +22,6 @@ O script tenta identificar coordenadas nos seguintes padrões:
 
 - `@latitude,longitude`
 - `query=latitude,longitude`
-- `!3dLAT!4dLON`
 
 Se não conseguir extrair as coordenadas, o link ainda é salvo no CSV, mas com os campos de latitude e longitude em branco.
 
@@ -36,7 +35,7 @@ Se não conseguir extrair as coordenadas, o link ainda é salvo no CSV, mas com 
 
 ## Estrutura do projeto
 
-```bash
+
 .
 ├── extrair_coordenadas.py
 ├── links.txt
