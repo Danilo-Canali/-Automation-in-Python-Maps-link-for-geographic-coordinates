@@ -40,6 +40,7 @@ Se não conseguir extrair as coordenadas, o link ainda é salvo no CSV, mas com 
 ├── extrair_coordenadas.py
 ├── links.txt
 └── pontos.csv
+
 Requisitos
 
 Antes de executar, instale as dependências:
